@@ -1,0 +1,107 @@
+\documentclass{jlreq}
+\begin{document}
+改行は
+無視されます。
+
+空行があると
+
+段落が改まります。
+
+Here is the 
+good sample.
+
+Here is the
+good sample.
+
+Supercalifragilistic
+expialidocious
+
+Supercalifragilistic%
+expialidocious
+
+吾輩は
+猫である。
+
+吾輩は 
+猫である。
+
+吾輩は%あ
+猫である。
+
+
+吾輩は %あ
+猫である。
+
+Fill in the (       )
+
+Fill in the ( \ \ \ \ \ )
+
+Fill in the (~~~~~~)
+  
+%この上に
+Fill in the (\ \ \ \ \ \ )
+
+%行頭・行末の半角空白は何個あっても無視されます。
+                   あああああああああああ               
+                いいいいいいいいい             
+
+この本は \LaTeX で書きました。
+
+この本は \LaTeX
+で書きました。
+
+この本は\LaTeX{}で書きました。
+
+この本は \LaTeX{}で書きました。
+
+この本は{\LaTeX}で書きました。
+
+\LaTeX、がんばれ!%エラーにならない
+
+\LaTeX is awesome!
+
+\LaTeX                 is awesome!
+
+\LaTeX{} is awesome!
+
+{\LaTeX} is awesome!
+
+\LaTeX{}is awesome!
+
+{\LaTeX}is awesome!
+
+\$29
+
+\$ 29
+
+{29}
+
+\${29}
+
+\${ 29}
+
+\${ 29
+}
+
+\${29
+}
+
+\today
+
+\和暦
+
+{\today}* $*$ \textasteriskcentered
+
+\AA ngstr\o m
+
+\AA{}ngstr\o{}m
+
+{\AA}ngstr{\o}m
+
+Remember, even if you win the rat race---you are still a rat.
+
+Schr\"{o}dinger, Pok\'{e}mon, al-Khw\={a}rizm\={i}, al-Khw\={a}rizm\={\i}, Erd\H{o}s.
+
+Schr\"odinger, Pok\'emon, al-Khw\=arizm\=i, al-Khw\=arizm\=\i, Erd\H{o}s. % \Hは繋げられないね！
+
+\end{document}
